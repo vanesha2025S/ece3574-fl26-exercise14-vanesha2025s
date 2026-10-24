@@ -116,6 +116,180 @@ depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
+#=============================================================================
+# Target rules for targets named write_file
+
+# Build rule for target.
+write_file: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 write_file
+.PHONY : write_file
+
+# fast build rule for target.
+write_file/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/write_file.dir/build.make CMakeFiles/write_file.dir/build
+.PHONY : write_file/fast
+
+#=============================================================================
+# Target rules for targets named read_file
+
+# Build rule for target.
+read_file: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 read_file
+.PHONY : read_file
+
+# fast build rule for target.
+read_file/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/read_file.dir/build.make CMakeFiles/read_file.dir/build
+.PHONY : read_file/fast
+
+#=============================================================================
+# Target rules for targets named write_file_autogen_timestamp_deps
+
+# Build rule for target.
+write_file_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 write_file_autogen_timestamp_deps
+.PHONY : write_file_autogen_timestamp_deps
+
+# fast build rule for target.
+write_file_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/write_file_autogen_timestamp_deps.dir/build.make CMakeFiles/write_file_autogen_timestamp_deps.dir/build
+.PHONY : write_file_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named write_file_autogen
+
+# Build rule for target.
+write_file_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 write_file_autogen
+.PHONY : write_file_autogen
+
+# fast build rule for target.
+write_file_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/write_file_autogen.dir/build.make CMakeFiles/write_file_autogen.dir/build
+.PHONY : write_file_autogen/fast
+
+#=============================================================================
+# Target rules for targets named read_file_autogen_timestamp_deps
+
+# Build rule for target.
+read_file_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 read_file_autogen_timestamp_deps
+.PHONY : read_file_autogen_timestamp_deps
+
+# fast build rule for target.
+read_file_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/read_file_autogen_timestamp_deps.dir/build.make CMakeFiles/read_file_autogen_timestamp_deps.dir/build
+.PHONY : read_file_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named read_file_autogen
+
+# Build rule for target.
+read_file_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 read_file_autogen
+.PHONY : read_file_autogen
+
+# fast build rule for target.
+read_file_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/read_file_autogen.dir/build.make CMakeFiles/read_file_autogen.dir/build
+.PHONY : read_file_autogen/fast
+
+read_file.o: read_file.cpp.o
+.PHONY : read_file.o
+
+# target to build an object file
+read_file.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/read_file.dir/build.make CMakeFiles/read_file.dir/read_file.cpp.o
+.PHONY : read_file.cpp.o
+
+read_file.i: read_file.cpp.i
+.PHONY : read_file.i
+
+# target to preprocess a source file
+read_file.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/read_file.dir/build.make CMakeFiles/read_file.dir/read_file.cpp.i
+.PHONY : read_file.cpp.i
+
+read_file.s: read_file.cpp.s
+.PHONY : read_file.s
+
+# target to generate assembly for a file
+read_file.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/read_file.dir/build.make CMakeFiles/read_file.dir/read_file.cpp.s
+.PHONY : read_file.cpp.s
+
+read_file_autogen/mocs_compilation.o: read_file_autogen/mocs_compilation.cpp.o
+.PHONY : read_file_autogen/mocs_compilation.o
+
+# target to build an object file
+read_file_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/read_file.dir/build.make CMakeFiles/read_file.dir/read_file_autogen/mocs_compilation.cpp.o
+.PHONY : read_file_autogen/mocs_compilation.cpp.o
+
+read_file_autogen/mocs_compilation.i: read_file_autogen/mocs_compilation.cpp.i
+.PHONY : read_file_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+read_file_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/read_file.dir/build.make CMakeFiles/read_file.dir/read_file_autogen/mocs_compilation.cpp.i
+.PHONY : read_file_autogen/mocs_compilation.cpp.i
+
+read_file_autogen/mocs_compilation.s: read_file_autogen/mocs_compilation.cpp.s
+.PHONY : read_file_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+read_file_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/read_file.dir/build.make CMakeFiles/read_file.dir/read_file_autogen/mocs_compilation.cpp.s
+.PHONY : read_file_autogen/mocs_compilation.cpp.s
+
+write_file.o: write_file.cpp.o
+.PHONY : write_file.o
+
+# target to build an object file
+write_file.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/write_file.dir/build.make CMakeFiles/write_file.dir/write_file.cpp.o
+.PHONY : write_file.cpp.o
+
+write_file.i: write_file.cpp.i
+.PHONY : write_file.i
+
+# target to preprocess a source file
+write_file.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/write_file.dir/build.make CMakeFiles/write_file.dir/write_file.cpp.i
+.PHONY : write_file.cpp.i
+
+write_file.s: write_file.cpp.s
+.PHONY : write_file.s
+
+# target to generate assembly for a file
+write_file.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/write_file.dir/build.make CMakeFiles/write_file.dir/write_file.cpp.s
+.PHONY : write_file.cpp.s
+
+write_file_autogen/mocs_compilation.o: write_file_autogen/mocs_compilation.cpp.o
+.PHONY : write_file_autogen/mocs_compilation.o
+
+# target to build an object file
+write_file_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/write_file.dir/build.make CMakeFiles/write_file.dir/write_file_autogen/mocs_compilation.cpp.o
+.PHONY : write_file_autogen/mocs_compilation.cpp.o
+
+write_file_autogen/mocs_compilation.i: write_file_autogen/mocs_compilation.cpp.i
+.PHONY : write_file_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+write_file_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/write_file.dir/build.make CMakeFiles/write_file.dir/write_file_autogen/mocs_compilation.cpp.i
+.PHONY : write_file_autogen/mocs_compilation.cpp.i
+
+write_file_autogen/mocs_compilation.s: write_file_autogen/mocs_compilation.cpp.s
+.PHONY : write_file_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+write_file_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/write_file.dir/build.make CMakeFiles/write_file.dir/write_file_autogen/mocs_compilation.cpp.s
+.PHONY : write_file_autogen/mocs_compilation.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -124,6 +298,24 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... read_file_autogen"
+	@echo "... read_file_autogen_timestamp_deps"
+	@echo "... write_file_autogen"
+	@echo "... write_file_autogen_timestamp_deps"
+	@echo "... read_file"
+	@echo "... write_file"
+	@echo "... read_file.o"
+	@echo "... read_file.i"
+	@echo "... read_file.s"
+	@echo "... read_file_autogen/mocs_compilation.o"
+	@echo "... read_file_autogen/mocs_compilation.i"
+	@echo "... read_file_autogen/mocs_compilation.s"
+	@echo "... write_file.o"
+	@echo "... write_file.i"
+	@echo "... write_file.s"
+	@echo "... write_file_autogen/mocs_compilation.o"
+	@echo "... write_file_autogen/mocs_compilation.i"
+	@echo "... write_file_autogen/mocs_compilation.s"
 .PHONY : help
 
 

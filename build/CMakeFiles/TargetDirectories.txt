@@ -1,2 +1,8 @@
+/mnt/build/CMakeFiles/write_file.dir
+/mnt/build/CMakeFiles/read_file.dir
 /mnt/build/CMakeFiles/edit_cache.dir
 /mnt/build/CMakeFiles/rebuild_cache.dir
+/mnt/build/CMakeFiles/write_file_autogen_timestamp_deps.dir
+/mnt/build/CMakeFiles/write_file_autogen.dir
+/mnt/build/CMakeFiles/read_file_autogen_timestamp_deps.dir
+/mnt/build/CMakeFiles/read_file_autogen.dir

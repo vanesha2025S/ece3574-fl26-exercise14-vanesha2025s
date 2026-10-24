@@ -5,7 +5,7 @@
 #include <QList>
 #include <QString>
 #include <cstdlib>
-#include <cstdlib>
+
 
 #include "file_header.h"
 
